@@ -22,7 +22,25 @@ Minimal application for creating react application with webpack and babel
 * @babel/preset-react: 7.0.0
 * babel-loader: 8.0.4
 
+## Using this application for creating your own project
+
+'''
+git clone https://github.com/sebastienveluz/minimal-react-webpack-babel.git <application_name>
+cd minimal-react-webpack-babel
+rm -rf .git
+```
+
 ## Getting Started
+
+Using file '.env' for storing project values, proceed as follow:
+
+'''
+cat <<EOT >> .env
+TESTENV=react
+EOT
+```
+
+It is not advised to commit the '.env' file.
 
 Before starting using this application, download all dependencies with yarn
 
