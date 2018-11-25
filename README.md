@@ -24,7 +24,7 @@ Minimal application for creating react application with webpack and babel
 
 ## Using this application for creating your own project
 
-'''
+```
 git clone https://github.com/sebastienveluz/minimal-react-webpack-babel.git <application_name>
 cd minimal-react-webpack-babel
 rm -rf .git
@@ -34,7 +34,7 @@ rm -rf .git
 
 Using file '.env' for storing project values, proceed as follow:
 
-'''
+```
 cat <<EOT >> .env
 TESTENV=react
 EOT
